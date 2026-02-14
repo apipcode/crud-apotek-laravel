@@ -16,7 +16,7 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         User::updateOrCreate(
-            ['email' => 'admin@apotek.com'],
+            ['email' => 'admin@demo.com'],
             [
                 'name' => 'Admin Apotek',
                 // Jangan pakai bcrypt di sini karena field password sudah di-cast sebagai 'hashed'
